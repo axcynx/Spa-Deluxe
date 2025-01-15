@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Spa Deluxe </title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to right, #6ca48c, #82c0a6);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #5a8c76;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .banner {
+            background: url('https://images.unsplash.com/photo-1556228453-d8d5d0c95b0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHNwYXxlbnwwfHx8fDE2NzM5MjczODk&ixlib=rb-4.0.3&q=80&w=1080') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .banner h2 {
+            font-size: 3em;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #82c0a6;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Spa Deluxe</h1>
+        <p>Renueva tu mente y cuerpo</p>
+    </header>
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#acerca">Acerca de Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="banner">
+        <h2>Bienvenido a tu centro de relajación</h2>
+    </div>
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Masajes Relajantes</h3>
+                <p>Elimina el estrés con nuestros masajes profesionales.</p>
+                <p><strong>Precio:</strong> 50€</p>
+            </div>
+            <div class="service">
+                <h3>Faciales</h3>
+                <p>Renueva tu piel con tratamientos personalizados.</p>
+                <p><strong>Precio:</strong> 40€</p>
+            </div>
+            <div class="service">
+                <h3>Tratamientos Corporales</h3>
+                <p>Exfoliación e hidratación para una piel radiante.</p>
+                <p><strong>Precio:</strong> 60€</p>
+            </div>
+        </div>
+    </section>
+    <section id="acerca">
+        <h2>Acerca de Nosotros</h2>
+        <p>En Spa Deluxe, creemos en el poder de la relajación y el cuidado personal. Nuestro equipo está dedicado a brindarte una experiencia única y transformadora.</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Dirección: No se</p>
+        <p>Teléfono: 642749893</p>
+        <p>Correo: ms.medrano.a@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Spa Deluxe. Todos los derechos reservados. | <a href="#">Políticas de Privacidad</a></p>
+    </footer>
+</body>
+</html>
